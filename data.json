@@ -1,0 +1,134 @@
+{
+  "settings": {
+    "businessName": "Good Gaming",
+    "tagline": "Play. Connect. Conquer.",
+    "phone": "",
+    "address": "",
+    "instagram": "",
+    "openingTime": "10:00",
+    "closingTime": "23:00",
+    "slotMinutes": 60,
+    "currency": "INR",
+    "bookingNoticeHours": 1,
+    "bookingPolicy": "Please arrive 10 minutes before your session. Late arrivals may reduce play time.",
+    "menuIntro": "Fuel your game. Order your favourites right from your gaming station."
+  },
+  "resources": [
+    {
+      "id": "pc",
+      "name": "Gaming PC",
+      "category": "PC Gaming",
+      "quantity": 4,
+      "price": 120,
+      "active": true,
+      "description": "High-performance gaming stations."
+    },
+    {
+      "id": "ps5",
+      "name": "PlayStation 5",
+      "category": "Console Gaming",
+      "quantity": 3,
+      "price": 180,
+      "active": true,
+      "description": "Next-gen console gaming."
+    },
+    {
+      "id": "sim",
+      "name": "MOZA Racing Simulator",
+      "category": "Racing",
+      "quantity": 1,
+      "price": 250,
+      "active": true,
+      "description": "Triple-screen racing simulator experience."
+    },
+    {
+      "id": "pool",
+      "name": "Pool Table",
+      "category": "Pool",
+      "quantity": 1,
+      "price": 150,
+      "active": true,
+      "description": "Challenge your friends."
+    },
+    {
+      "id": "watch",
+      "name": "Watch Party",
+      "category": "Events",
+      "quantity": 1,
+      "price": 0,
+      "active": true,
+      "description": "Watch matches and events together."
+    }
+  ],
+  "bookings": [
+    {
+      "id": "GG-MWAX2XWE-2K8J",
+      "resourceId": "pool",
+      "resourceName": "Pool Table",
+      "date": "2026-11-10",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "duration": 60,
+      "quantity": 1,
+      "customerName": "KG",
+      "phone": "9313453906",
+      "email": "",
+      "notes": "",
+      "price": 150,
+      "status": "Confirmed",
+      "source": "Website",
+      "createdAt": "2026-11-10T16:41:11.199Z"
+    }
+  ],
+  "orders": [],
+  "menu": [
+    {
+      "id": "MENU-MWAWSRCK-G5Y6",
+      "name": "Classic Burger",
+      "category": "Burgers",
+      "description": "Placeholder menu item – customise this in Admin.",
+      "price": 149,
+      "active": true
+    },
+    {
+      "id": "MENU-MWAWSRCK-WVA5",
+      "name": "Loaded Fries",
+      "category": "Snacks",
+      "description": "Placeholder menu item – customise this in Admin.",
+      "price": 99,
+      "active": true
+    },
+    {
+      "id": "MENU-MWAWSRCK-FT3E",
+      "name": "Cold Coffee",
+      "category": "Beverages",
+      "description": "Placeholder menu item – customise this in Admin.",
+      "price": 119,
+      "active": true
+    },
+    {
+      "id": "MENU-MWAWSRCK-J64A",
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "description": "Placeholder menu item – customise this in Admin.",
+      "price": 199,
+      "active": true
+    },
+    {
+      "id": "MENU-MWAWSRCK-0WR8",
+      "name": "Good Gaming Combo",
+      "category": "Combos",
+      "description": "Placeholder combo – customise this in Admin.",
+      "price": 249,
+      "active": true
+    }
+  ],
+  "blocked": [],
+  "coupons": [],
+  "users": [],
+  "admin": {
+    "email": "admin@goodgaming.in",
+    "passwordHash": "$2a$10$cIAaV12xy0K2EYp5xcmlROEPGWj3mcQXErhsNu4jc4vkTb3k4sFV.",
+    "name": "Good Gaming Admin"
+  }
+}
